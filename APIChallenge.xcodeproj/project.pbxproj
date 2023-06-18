@@ -11,6 +11,9 @@
 		B28BC86A2A3F7E1C006834DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BC8692A3F7E1C006834DC /* ContentView.swift */; };
 		B28BC86C2A3F7E1D006834DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28BC86B2A3F7E1D006834DC /* Assets.xcassets */; };
 		B28BC86F2A3F7E1D006834DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B28BC86E2A3F7E1D006834DC /* Preview Assets.xcassets */; };
+		B28BC8762A3F7ECD006834DC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BC8752A3F7ECD006834DC /* User.swift */; };
+		B28BC87A2A3F8A0E006834DC /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BC8792A3F8A0D006834DC /* Friend.swift */; };
+		B28BC87C2A3F8DA7006834DC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BC87B2A3F8DA7006834DC /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		B28BC8692A3F7E1C006834DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B28BC86B2A3F7E1D006834DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B28BC86E2A3F7E1D006834DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B28BC8752A3F7ECD006834DC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B28BC8792A3F8A0D006834DC /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		B28BC87B2A3F8DA7006834DC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				B28BC8672A3F7E1C006834DC /* APIChallengeApp.swift */,
 				B28BC8692A3F7E1C006834DC /* ContentView.swift */,
+				B28BC87B2A3F8DA7006834DC /* DetailView.swift */,
+				B28BC8792A3F8A0D006834DC /* Friend.swift */,
+				B28BC8752A3F7ECD006834DC /* User.swift */,
 				B28BC86B2A3F7E1D006834DC /* Assets.xcassets */,
 				B28BC86D2A3F7E1D006834DC /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				B28BC86A2A3F7E1C006834DC /* ContentView.swift in Sources */,
 				B28BC8682A3F7E1C006834DC /* APIChallengeApp.swift in Sources */,
+				B28BC87A2A3F8A0E006834DC /* Friend.swift in Sources */,
+				B28BC87C2A3F8DA7006834DC /* DetailView.swift in Sources */,
+				B28BC8762A3F7ECD006834DC /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
